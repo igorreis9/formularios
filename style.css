@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: rgb(4,0,45);
+    background-image: url("https://images.unsplash.com/photo-1593642532400-2682810df593?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.673);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgb(99, 1, 226);
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select,
+textarea{
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100%-25px);
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    margin-right: 5px;
+}
+
+
+button{
+    width: 30%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #218838;
+}
+
+.small-input {
+    width: auto;
+    display: inline-block;
+}
+
+.inline-label{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
